@@ -1,12 +1,13 @@
-import './styles/App.css';
+import React from 'react';
+
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <React.Fragment>
+      <HomePage />
+    </React.Fragment>
   );
-}
+};
 
 export default App;
